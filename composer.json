@@ -1,0 +1,16 @@
+{
+  "name": "thewunder/corma-benchmark",
+  "description": "A Simple benchmark to compare corma and Doctrine 2",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael O'Connell",
+      "email": "moconnell@lifestylepubs.com"
+    }
+  ],
+  "require": {
+    "doctrine/orm": "~2.5",
+    "thewunder/corma": "~1.0.0-beta1"
+  }
+}
