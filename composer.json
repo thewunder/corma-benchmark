@@ -1,7 +1,8 @@
 {
   "name": "thewunder/corma-benchmark",
   "description": "A Simple benchmark to compare corma and Doctrine 2",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "license": "MIT",
   "authors": [
     {
@@ -9,8 +10,14 @@
       "email": "moconnell@lifestylepubs.com"
     }
   ],
+  "autoload": {
+    "psr-4": {
+      "CormaBenchmark\\": "src/CormaBenchmark"
+    }
+  },
   "require": {
     "doctrine/orm": "~2.5",
-    "thewunder/corma": "~1.0.0-beta1"
+    "thewunder/corma": "~1.0.0",
+    "vlucas/phpdotenv": "~2.0"
   }
 }
