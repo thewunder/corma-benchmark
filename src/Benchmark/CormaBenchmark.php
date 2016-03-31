@@ -36,12 +36,12 @@ class CormaBenchmark extends Benchmark
         $orm->saveAll($associated);
         $this->stopwatch->stop('Insert 1000 associated objects');
 
-        $this->stopwatch->start('Update 1000 objects', 'Update 1000 objects');
         foreach ($objects as $i => $object) {
             $object->setName($object->getName() . ' Updated')
                 ->setDescription($object->getDescription() . ' Updated')
                 ->setAssociatedObjectId($associated[$i]->getId());
         }
+        $this->stopwatch->start('Update 1000 objects', 'Update 1000 objects');
         $orm->saveAll($objects);
         $this->stopwatch->stop('Update 1000 objects');
 
