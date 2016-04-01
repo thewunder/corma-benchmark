@@ -45,9 +45,10 @@ class CormaBenchmark extends Benchmark
         $orm->saveAll($objects);
         $this->stopwatch->stop('Update 1000 objects');
 
-        $this->stopwatch->start('Load 1000 associated objects', 'Load 1000 associated objects');
+        $this->stopwatch->start('Load 1000 objects with associated', 'Load 1000 objects with associated');
+        $objects = $orm->findAll(TestObject::class);
         $orm->loadOne($objects, AssociatedObject::class);
-        $this->stopwatch->stop('Load 1000 associated objects');
+        $this->stopwatch->stop('Load 1000 objects with associated');
         
         $this->stopwatch->start('Delete 1000 objects', 'Delete 1000 objects');
         $orm->deleteAll($objects);
