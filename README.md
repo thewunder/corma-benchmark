@@ -1,5 +1,5 @@
-A Simple Benchmark Script for Corma and Doctrine 2
-==================================================
+Simple Benchmark Script comparing Corma and Doctrine
+====================================================
 
 Current results on my laptop (Ubuntu 16.04 beta with MySQL 5.6.28 and php 7.0.4):
 
@@ -26,5 +26,7 @@ Doctrine 2:
 Total: 853 ms
 
 Findings:
+
 Corma is more than 2x faster at mass write operations.
+
 Doctrine is still 15% faster at simple read operations, how??
