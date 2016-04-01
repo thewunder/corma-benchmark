@@ -17,6 +17,7 @@ abstract class Benchmark
     public function __construct()
     {
         $this->stopwatch = new Stopwatch();
+        $this->connect();
     }
 
     protected function connect()
