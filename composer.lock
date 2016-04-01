@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1e68034560aef4686512f6b8913a9390",
+    "hash": "4afbd16d788a9db80a137d76ed6d6294",
     "content-hash": "4192ea0b147674398bd0395bc78310a6",
     "packages": [
         {
@@ -836,16 +836,16 @@
         },
         {
             "name": "thewunder/corma",
-            "version": "1.0.0",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thewunder/corma.git",
-                "reference": "37cfa6c6726b56cdaf2816f9a6a39efbf8075ebf"
+                "reference": "0ecd6eed822cac8045fbd4517ab5d8bca2038eb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thewunder/corma/zipball/37cfa6c6726b56cdaf2816f9a6a39efbf8075ebf",
-                "reference": "37cfa6c6726b56cdaf2816f9a6a39efbf8075ebf",
+                "url": "https://api.github.com/repos/thewunder/corma/zipball/0ecd6eed822cac8045fbd4517ab5d8bca2038eb0",
+                "reference": "0ecd6eed822cac8045fbd4517ab5d8bca2038eb0",
                 "shasum": ""
             },
             "require": {
@@ -882,7 +882,7 @@
                 "Object relational mapper",
                 "data mapper"
             ],
-            "time": "2016-03-30 19:59:15"
+            "time": "2016-03-31 20:52:11"
         },
         {
             "name": "vlucas/phpdotenv",
