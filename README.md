@@ -29,4 +29,6 @@ Findings:
 
 Corma is more than 2x faster at mass write operations.
 
+Corma uses 50% less memory than Doctrine.
+
 Doctrine is still 15% faster at simple read operations, how??
