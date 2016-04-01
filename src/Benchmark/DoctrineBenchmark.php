@@ -30,7 +30,7 @@ class DoctrineBenchmark extends Benchmark
         $this->stopwatch->start('Initialization', 'Initialization');
         $reader = new AnnotationReader();
         $driver = new AnnotationDriver($reader, [__DIR__ . '/../Doctrine']);
-        $config = Setup::createAnnotationMetadataConfiguration([__DIR__ . '/../Doctrine'], true, '/tmp/' . 'proxy', new ArrayCache());
+        $config = Setup::createAnnotationMetadataConfiguration([__DIR__ . '/../Doctrine'], false, '/tmp/' . 'proxy', new ArrayCache());
         $config->setMetadataDriverImpl($driver);
         $config->addEntityNamespace('Lifestyle', 'Lifestyle\\Entity\\');
         $this->entityManager = EntityManager::create($this->connection, $config);
