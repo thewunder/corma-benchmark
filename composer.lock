@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4afbd16d788a9db80a137d76ed6d6294",
-    "content-hash": "4192ea0b147674398bd0395bc78310a6",
+    "hash": "4e5ce8d342a224d022df61357534b760",
+    "content-hash": "489380b5269898f3eff4965467f18d9a",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -608,16 +608,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v3.0.4",
+            "version": "v3.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "6b1175135bc2a74c08a28d89761272de8beed8cd"
+                "reference": "34a214710e0714b6efcf40ba3cd1e31373a97820"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/6b1175135bc2a74c08a28d89761272de8beed8cd",
-                "reference": "6b1175135bc2a74c08a28d89761272de8beed8cd",
+                "url": "https://api.github.com/repos/symfony/console/zipball/34a214710e0714b6efcf40ba3cd1e31373a97820",
+                "reference": "34a214710e0714b6efcf40ba3cd1e31373a97820",
                 "shasum": ""
             },
             "require": {
@@ -664,20 +664,20 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2016-03-16 17:00:50"
+            "time": "2016-04-28 09:48:42"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v3.0.4",
+            "version": "v3.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "9002dcf018d884d294b1ef20a6f968efc1128f39"
+                "reference": "17b04e6b1ede45b57d3ad5146abe50df6c3968b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/9002dcf018d884d294b1ef20a6f968efc1128f39",
-                "reference": "9002dcf018d884d294b1ef20a6f968efc1128f39",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/17b04e6b1ede45b57d3ad5146abe50df6c3968b4",
+                "reference": "17b04e6b1ede45b57d3ad5146abe50df6c3968b4",
                 "shasum": ""
             },
             "require": {
@@ -724,7 +724,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2016-03-10 10:34:12"
+            "time": "2016-04-12 18:09:53"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -787,7 +787,7 @@
         },
         {
             "name": "symfony/stopwatch",
-            "version": "v3.0.4",
+            "version": "v3.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/stopwatch.git",
@@ -836,16 +836,16 @@
         },
         {
             "name": "thewunder/corma",
-            "version": "1.0.6",
+            "version": "2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thewunder/corma.git",
-                "reference": "39da93ee331e16a31d9c88f36a46ccd700ffd977"
+                "reference": "bcaf78dc84e772fcd8d8000a319ec5adc04d5189"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thewunder/corma/zipball/39da93ee331e16a31d9c88f36a46ccd700ffd977",
-                "reference": "39da93ee331e16a31d9c88f36a46ccd700ffd977",
+                "url": "https://api.github.com/repos/thewunder/corma/zipball/bcaf78dc84e772fcd8d8000a319ec5adc04d5189",
+                "reference": "bcaf78dc84e772fcd8d8000a319ec5adc04d5189",
                 "shasum": ""
             },
             "require": {
@@ -882,7 +882,7 @@
                 "Object relational mapper",
                 "data mapper"
             ],
-            "time": "2016-04-28 15:52:11"
+            "time": "2016-05-03 15:38:28"
         },
         {
             "name": "vlucas/phpdotenv",
