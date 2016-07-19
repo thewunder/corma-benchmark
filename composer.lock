@@ -836,16 +836,16 @@
         },
         {
             "name": "thewunder/corma",
-            "version": "2.0",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thewunder/corma.git",
-                "reference": "bcaf78dc84e772fcd8d8000a319ec5adc04d5189"
+                "reference": "976a9aa029b367a2218ae809b8df21c9d8537314"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thewunder/corma/zipball/bcaf78dc84e772fcd8d8000a319ec5adc04d5189",
-                "reference": "bcaf78dc84e772fcd8d8000a319ec5adc04d5189",
+                "url": "https://api.github.com/repos/thewunder/corma/zipball/976a9aa029b367a2218ae809b8df21c9d8537314",
+                "reference": "976a9aa029b367a2218ae809b8df21c9d8537314",
                 "shasum": ""
             },
             "require": {
@@ -882,7 +882,7 @@
                 "Object relational mapper",
                 "data mapper"
             ],
-            "time": "2016-05-03 15:38:28"
+            "time": "2016-06-17 15:51:16"
         },
         {
             "name": "vlucas/phpdotenv",

@@ -31,4 +31,5 @@ Corma is more than 2x faster at mass write operations.
 
 Corma uses 50% less memory than Doctrine.
 
-Doctrine is still > 15% faster at simple read operations, how??
+Doctrine is ~15% faster at simple read operations when event dispatching is enabled.
+Without the event dispatcher read operations are about the same.
