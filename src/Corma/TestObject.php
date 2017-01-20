@@ -1,16 +1,32 @@
 <?php
 namespace CormaBenchmark\Corma;
 
-use Corma\DataObject\DataObject;
-
-class TestObject extends DataObject
+class TestObject
 {
+
+    protected $id;
     protected $name;
     protected $description;
     protected $associatedObjectId;
 
     /** @var  AssociatedObject */
     protected $associatedObject;
+
+    /**
+     * @return string
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * @param string $id
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+    }
 
     /**
      * @return mixed
