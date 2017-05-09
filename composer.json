@@ -16,7 +16,7 @@
   },
   "require": {
     "doctrine/orm": "~2.5",
-    "thewunder/corma": "dev-3.0-dev",
+    "thewunder/corma": "3.x-dev",
     "vlucas/phpdotenv": "~2.0",
     "symfony/stopwatch": "~3.0"
   }

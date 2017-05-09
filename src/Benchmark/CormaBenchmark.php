@@ -12,7 +12,7 @@ class CormaBenchmark extends Benchmark
     public function runBenchmarks()
     {
         $this->stopwatch->start('Initialization', 'Initialization');
-        $orm = ObjectMapper::withDefaults($this->connection, ['CormaBenchmark\\Corma'], new ArrayCache(), new EventDispatcher());
+        $orm = ObjectMapper::withDefaults($this->connection, new ArrayCache(), new EventDispatcher());
         $this->stopwatch->stop('Initialization');
 
         $objects = [];
