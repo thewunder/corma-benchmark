@@ -1,30 +1,31 @@
 Simple Benchmark Script comparing Corma and Doctrine
 ====================================================
 
-Current results on my laptop (Ubuntu 16.04 with MySQL 5.7.17 and php 7.1.1):
+Current results on my laptop (Ubuntu 17.04 with MySQL 5.7.17 and php 7.1.7):
+
+Yes I know this isn't a very good benchmark!
 
 Corma:
 
-* Initialization: 2.00 MiB - 18 ms
-* Insert 1000 objects: 4.00 MiB - 136 ms
-* Insert 1000 associated objects: 4.00 MiB - 74 ms
-* Update 1000 objects: 6.00 MiB - 135 ms
-* Load 1000 objects with associated: 6.00 MiB - 49 ms
-* Delete 1000 objects: 6.00 MiB - 26 ms
+* Initialization: 2.00 MiB - 37 ms
+* Insert 1000 objects: 4.00 MiB - 152 ms
+* Insert 1000 associated objects: 4.00 MiB - 110 ms
+* Update 1000 objects: 6.00 MiB - 156 ms
+* Load 1000 objects with associated: 6.00 MiB - 48 ms
+* Delete 1000 objects: 6.00 MiB - 27 ms
 
-Total: 438 ms
+Total: 530 ms
 
 Doctrine 2:
 
-* Initialization: 4.00 MiB - 25 ms
-* Insert 1000 objects: 8.00 MiB - 342 ms
-* Insert 1000 associated objects: 8.00 MiB - 210 ms
-* Update 1000 objects: 8.00 MiB - 417 ms
-* Load 1000 objects with associated: 8.00 MiB - 38 ms
-* Delete 1000 objects: 8.00 MiB - 118 ms
+* Initialization: 4.00 MiB - 29 ms
+* Insert 1000 objects: 8.00 MiB - 208 ms
+* Insert 1000 associated objects: 8.00 MiB - 121 ms
+* Update 1000 objects: 8.00 MiB - 648 ms
+* Load 1000 objects with associated: 8.00 MiB - 36 ms
+* Delete 1000 objects: 8.00 MiB - 114 ms
 
-Total: 1150 ms
-
+Total: 1156 ms
 
 Findings:
 
